@@ -37,7 +37,7 @@ describe('<CitySearch /> component', () => {
     CitySearchComponent.rerender(<CitySearch allLocations={allLocations} />);
 
     // user types "Berlin" in city textbox
-    const cityTextBox = CitySearchComponent.queryByRole('textbox');
+    const cityTextBox = CitySearchComponent.queryByRole('textbox'); 
     await user.type(cityTextBox, "Berlin");
 
     // filter allLocations to locations matching "Berlin"
