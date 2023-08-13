@@ -45,7 +45,7 @@ const getToken = async (code) => {
     'https://ocmhxo5a54.execute-api.eu-central-1.amazonaws.com/dev/api/token' + '/' + encodeCode
   );
   const { access_token } = await response.json();
-  access_token && localStorage.setItem("access_token", access_token);a
+  access_token && localStorage.setItem("access_token", access_token);
 
   return access_token;
 };
