@@ -4,22 +4,12 @@ Link:  https://brocal82.github.io/meet/
 
 This application has been built using React on the frontend and AWS Lambda on the backend. It showcases a dynamic list of events sourced from the Google Calendar API. Users have the ability to filter events based on the city or event count.
 
-Prerequisites:
-Install Node.js
-
-Installation:
-Clone the repository.
-Navigate to the project directory in the terminal.
-Run npm install to install the necessary dependencies.
 
 Technologies Used:
 React
 Jest
 React testing library
 Puppeteer
-
-Deployment:
-Run npm run deploy to deploy to GitHub Pages.
 
 
 FEATURE 1: Filter Events by City
