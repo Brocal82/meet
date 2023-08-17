@@ -18,15 +18,6 @@ Jest
 React testing library
 Puppeteer
 
-Development Server:
-Run npm run start for a development server.
-Navigate to http://localhost:3000/meet_app.
-The application will automatically reload if you change any source files.
-
-Build:
-Run npm run build to build the project.
-Build artifacts will be stored in the dist/ directory.
-
 Deployment:
 Run npm run deploy to deploy to GitHub Pages.
 
