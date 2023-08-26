@@ -2,7 +2,7 @@
 .App {
   text-align: center;
   padding: 2% 5%;
-  background-color: #f53756;
+  background-color: #FFF4AA;
 }
 
 .App * {
@@ -54,9 +54,9 @@ input[type="number"] {
 }
 
 .suggestions > li {
-  text-align: left;
+  text-align: center;
   padding: 8px 6px 8px 10px;
-  background-color: #4cb8b3;
+  background-color: #C5D068;
   cursor: default;
 }
 
@@ -70,7 +70,7 @@ input[type="number"] {
 }
 
 .event {
-  background-color: #fef46d;
+  background-color: #D4C76A;
   padding: 10px 10px 35px;
   margin-bottom: 10px;
   text-align: center;
@@ -80,7 +80,7 @@ input[type="number"] {
 }
 
 .details-btn {
-  position: absolute;
+  position: center;
   right: 5px;
   bottom: 5px;
   padding: 5px 8px;
