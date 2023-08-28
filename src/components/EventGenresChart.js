@@ -5,6 +5,10 @@ const EventGenresChart = ({ events }) => {
   const [data, setData] = useState([]);
   const genres = ['React', 'JavaScript', 'Node', 'jQuery', 'Angular'];
 
+  useEffect(() => {
+    setData(getData());
+  }, [events]);
+
   const renderCustomizedLabel = ({
     cx,
     cy,
@@ -36,6 +40,8 @@ const EventGenresChart = ({ events }) => {
         event.summary.includes(genre)
       );
 
+    
+
       return {
         name: genre,
         value: filteredEvents.length,
@@ -44,9 +50,7 @@ const EventGenresChart = ({ events }) => {
     return data;
   };
 
-  useEffect(() => {
-    setData(getData());
-  }, [`${events}`]);
+  
 
   return (
     <ResponsiveContainer width="99%" height={400}>
