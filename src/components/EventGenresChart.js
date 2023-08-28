@@ -1,13 +1,13 @@
 import { useState, useEffect } from 'react';
 import { Pie, PieChart, ResponsiveContainer } from 'recharts';
 
-const EventGenresChart = ({ events }) => {
+const EventGenresChart = ({ allLocations, events }) => {
   const [data, setData] = useState([]);
   const genres = ['React', 'JavaScript', 'Node', 'jQuery', 'Angular'];
 
   useEffect(() => {
     setData(getData());
-  }, [events]);
+  }, [events, allLocations]);
 
   const renderCustomizedLabel = ({
     cx,
